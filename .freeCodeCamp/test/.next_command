@@ -85,3 +85,6 @@ help
 help if
 help if
 help [[ expression ]]
+help !=
+help ==
+help test
