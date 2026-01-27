@@ -166,3 +166,4 @@ echo $J
 declare -p
 decalre -p J
 declare -p J
+declare -p RANDOM
