@@ -41,3 +41,4 @@ touch questionaire.sh
 rm questionaire.sh
 touch questionnaire.sh
 __vsc_prompt_cmd_original
+sh ./questionnaire.sh
