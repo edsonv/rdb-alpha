@@ -107,3 +107,4 @@ __vsc_prompt_cmd_original
 HELP TEST
 help test
 [[ 10 -ne 5 ]]
+bad_command
