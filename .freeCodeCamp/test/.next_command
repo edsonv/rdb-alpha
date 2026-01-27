@@ -108,3 +108,4 @@ HELP TEST
 help test
 [[ 10 -ne 5 ]]
 bad_command
+ls --color=auto
