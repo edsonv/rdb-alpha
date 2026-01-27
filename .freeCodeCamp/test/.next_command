@@ -72,3 +72,4 @@ echo
 ./countdown.sh arg1 arg2 arg3
 __vsc_prompt_cmd_original
 help
+man if
