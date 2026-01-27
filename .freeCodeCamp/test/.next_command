@@ -125,3 +125,4 @@ help [[
 ./countdown.sh -1
 htlp
 help
+./countdown.sh 10
