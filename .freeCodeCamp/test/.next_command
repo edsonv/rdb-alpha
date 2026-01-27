@@ -200,3 +200,5 @@ echo ${ARR[1]}
 eecho ${ARR[*]}
 ECHO ${ARR[*]}
 echo ${ARR[*]}
+declare -p
+declare -p ARR
