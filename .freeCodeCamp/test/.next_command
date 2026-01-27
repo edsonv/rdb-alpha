@@ -103,3 +103,7 @@ __vsc_prompt_cmd_original
 echo $?
 __vsc_prompt_cmd_original
 [[ 4 -ge 5 ]]
+[[ 10 != 5 ]]
+HELP TEST
+help test
+[[ 10 -ne 5 ]]
