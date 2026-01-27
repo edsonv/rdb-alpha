@@ -68,3 +68,4 @@ __vsc_prompt_cmd_original
 echo
 echo
 ./countdown.sh
+./countdown.sh arg1 arg2 arg3
