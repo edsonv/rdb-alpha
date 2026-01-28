@@ -210,3 +210,5 @@ help function
 help
 help unitl
 help until
+help test
+./fortune.sh
