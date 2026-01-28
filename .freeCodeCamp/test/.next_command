@@ -224,3 +224,5 @@ __vsc_prompt_cmd_original
 [[ "hello world" =~ ^h.+d$ ]]
 VAR="hello world"
 echo $VAR
+[[ $VAR == "hello world" ]]
+[[ $VAR == "hello world" ]]
