@@ -245,3 +245,4 @@ type echo
 echo read
 type read
 type if
+type then
