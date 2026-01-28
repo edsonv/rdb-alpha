@@ -220,3 +220,4 @@ __vsc_prompt_cmd_original
 [[ hello =~ el ]]
 __vsc_prompt_cmd_original
 [[ "hello world" =~ "lo wor" ]]
+[[ "hello world" =~ ^h ]]
