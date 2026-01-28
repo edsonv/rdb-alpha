@@ -230,3 +230,4 @@ echo $VAR
 [[ $VAR =~ \?$ ]]
 [[ TEST? =~ \?$ ]]
 [[ test? =~ \?$ ]]
+./fortune.sh
