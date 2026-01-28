@@ -246,3 +246,4 @@ echo read
 type read
 type if
 type then
+type bash
