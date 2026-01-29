@@ -102,3 +102,4 @@ echo $NAME
 echo Edson
 echo $NAME
 cat
+cat name.txt
