@@ -109,3 +109,6 @@ echo Edson
 touch script.sh
 chmod +x script.sh
 ./script.sh
+echo Edson < script.sh
+echo Edson
+echo Edson
