@@ -129,3 +129,4 @@ wc kitty_ipsum_1.txt
 wc
 man wwwwwwcccc
 man wc
+wc -l kitty_ipsum_1.txt
