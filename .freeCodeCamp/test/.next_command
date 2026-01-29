@@ -85,3 +85,5 @@ more stdout.txt
 more stdout.txt
 bad_command
 bad_command > stderr.txt
+more stderr.txt
+bad_command 2> stderr.txt
