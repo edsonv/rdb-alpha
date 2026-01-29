@@ -94,3 +94,4 @@ more stdout.txt
 read NAME
 echo NAME
 echo $NAME
+echo $NAME > stdout.txt
