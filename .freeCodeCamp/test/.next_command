@@ -210,3 +210,5 @@ grep 'cat[a-z]*' kitty_ipsum_1.txt -n
 grep 'cat[a-z]*' kitty_ipsum_1.txt -n
 echo -e "\n\n~~ kitty_ipsum_2.txt info ~~" >> kitty_info.txt
 echo -e "\nNumber of lines:" >> kitty_info.txt
+cat kitty_ipsum_2.txt
+cat kitty_ipsum_2.txt
