@@ -99,3 +99,4 @@ echo freeCodeCamp > name.txt
 read NAME < name.txt
 more stdin
 echo $NAME
+echo Edson
