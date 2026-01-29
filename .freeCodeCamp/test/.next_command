@@ -101,3 +101,4 @@ more stdin
 echo $NAME
 echo Edson
 echo $NAME
+cat
