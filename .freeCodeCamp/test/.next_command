@@ -177,3 +177,4 @@ echo -e "\nLines that they appear on:" >> kitty_info.txt
 grep 'meow[a-z]*' kitty_ipsum_1.txt -n
 cat name.txt
 sed 's/r/2/' name.txt
+sed 's/free/f233/' name.txt
