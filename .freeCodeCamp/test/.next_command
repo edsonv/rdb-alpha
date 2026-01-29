@@ -92,3 +92,5 @@ echo hello bash
 echo hello bash > stdout.txt
 more stdout.txt
 read NAME
+echo NAME
+echo $NAME
