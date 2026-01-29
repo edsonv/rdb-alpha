@@ -80,3 +80,5 @@ echo hello bash >> stdout.txt
 more stdout.txt
 __vsc_prompt_cmd_original
 echo hello bash > stdout.txt
+more stdout.txt
+> stdout.txt
