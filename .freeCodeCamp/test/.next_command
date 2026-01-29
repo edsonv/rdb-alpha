@@ -116,3 +116,8 @@ echo Edson
 echo Edson
 more stderr.txt
 echo Edson
+more stdout.txt
+more stderr.txt
+name.txt
+cat name.txt
+./script.sh < name.txt
