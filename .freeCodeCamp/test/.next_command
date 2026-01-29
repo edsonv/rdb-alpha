@@ -107,3 +107,4 @@ name.txt < cat
 cat < name.txt
 echo Edson
 touch script.sh
+chmod +x script.sh
