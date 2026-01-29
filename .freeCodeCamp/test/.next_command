@@ -114,3 +114,5 @@ echo Edson
 echo Edson
 echo Edson
 echo Edson
+more stderr.txt
+echo Edson
