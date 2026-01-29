@@ -105,3 +105,4 @@ cat
 cat name.txt
 name.txt < cat
 cat < name.txt
+echo Edson
