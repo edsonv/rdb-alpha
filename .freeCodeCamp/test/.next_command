@@ -192,3 +192,7 @@ grep -n 'meow[a-z]*' kitty_ipsum_1.txt
 grep -n 'meow[a-z]*' kitty_ipsum_1.txt
 grep -n 'meow[a-z]*' kitty_ipsum_1.txt
 grep -n 'meow[a-z]*' kitty_ipsum_1.txt
+gra
+grep --color 'cat[a-z]' kitty_ipsum_1.txt
+grep --color 'cat[a-z]' kitty_ipsum_1.txt -n
+grep --color 'cat[a-z]*' kitty_ipsum_1.txt
