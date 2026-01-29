@@ -82,3 +82,5 @@ __vsc_prompt_cmd_original
 echo hello bash > stdout.txt
 more stdout.txt
 > stdout.txt
+more stdout.txt
+bad_command
