@@ -250,3 +250,6 @@ type bash
 type psql
 type ./five.sh
 exit
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+'/vscode/bin/linux-x64/c9d77990917f3102ada88be140d28b038d1dd7c7/node' -p '"9bdfaa11cae9" + JSON.stringify(process.env) + "9bdfaa11cae9"'
