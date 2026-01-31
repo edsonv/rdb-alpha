@@ -79,3 +79,4 @@ __vsc_prompt_cmd_original
 psql -U freecodecamp -d postgres
 touch bike-shop.sh
 chmod +x bike-shop.sh
+./bike-shop.sh
