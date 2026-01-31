@@ -143,3 +143,4 @@ echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 ./bike-shop.sh
 ./bike-shop.sh
 psql -U freecodecamp -d postgres
+./bike-shop.sh
