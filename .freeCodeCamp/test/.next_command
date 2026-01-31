@@ -131,3 +131,5 @@ echo "$(echo ' M e ' | sed 's/ $ //g')."
 echo "$(echo ' M e ' | sed 's/ $//g')."
 echo "$(echo ' M e ' | sed 's/ *$//g')."
 echo "$(echo ' M e ' | sed 's/^ *| *$//g')."
+echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
+man sed
