@@ -473,3 +473,7 @@ la
 ls --color=auto -al
 cat .gitignore
 git add .
+man git merge
+git branch
+git checkout master
+git add .
