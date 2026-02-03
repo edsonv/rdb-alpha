@@ -466,3 +466,10 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./queries.sh
 ./queries.sh
 ./queries.sh
+exit
+git status
+git branch
+la
+ls --color=auto -al
+cat .gitignore
+git add .
