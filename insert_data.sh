@@ -15,19 +15,28 @@ TEAMS=$(
     then
       echo -e "$WINNER\n$OPPONENT"
     fi
-  done | sort | uniq | sed "s/'/''/g"
+  done | sort | uniq | sed "s/'/''/g; s/^/('/; s/$/')/;" | sed ':a;N;$!ba;s/\n/,/g'
 )
 
-VALUES=$(echo "$TEAMS" | sed "s/^/('/; s/$/')/" | sed ':a;N;$!ba;s/\n/,/g')
-
-$PSQL "INSERT INTO teams(name) VALUES $VALUES ON CONFLICT (name) DO NOTHING;"
-
 GAMES=$(
-  cat games.csv | while IFS="," read YEAR ROUND WINNER OPPONENT WINNER_GOAL OPPONENT_GOALS;
+  cat games.csv | while IFS="," read YEAR ROUND WINNER OPPONENT WINNER_GOALS OPPONENT_GOALS;
   do
     if [[ $YEAR != "year" ]]
     then
-      echo -e "$WINNER\n$OPPONENT"
+      W=$(echo "$WINNER" | sed "s/'/''/g")
+      O=$(echo "$OPPONENT" | sed "s/'/''/g")
+      R=$(echo "$ROUND"   | sed "s/'/''/g")
+
+      echo -e "($YEAR,'$R',(SELECT team_id FROM teams WHERE name='$W'),(SELECT team_id FROM teams WHERE name='$O'),$WINNER_GOALS,$OPPONENT_GOALS)"
     fi
-  done | sort | uniq | sed "s/'/''/g"
+  done | sed ':a;N;$!ba;s/\n/,/g'
 )
+
+QUERY="
+  BEGIN;
+  INSERT INTO teams(name) VALUES $TEAMS ON CONFLICT (name) DO NOTHING;
+  INSERT INTO games(year,round,winner_id,opponent_id,winner_goals,opponent_goals) VALUES $GAMES;
+  COMMIT;
+"
+
+$PSQL "$QUERY"
