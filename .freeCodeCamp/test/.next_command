@@ -166,3 +166,4 @@ exit
 git checkout -b salon-appointment-scheduler
 pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 git add .
+git add .
